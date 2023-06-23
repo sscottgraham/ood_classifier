@@ -12,8 +12,10 @@ library(tidyverse)
 library(clinspacy)
 library(caret)
 
-# Load data with format patient_id | nature | primary_impression | chief_complaint | secondary_complaint | rx_ref_list | full_hx_dx | class
-data <- ""
+# Load data with the following column names
+#[1] "patient_id"         "nature"             "primary_impression" "chief_complaint"    "chief_narrative"    "rx_ref_list"        "full_dx_hx"        
+#[8] "class" 
+
 
 # Get ClinSpaCy vectors ---------------------------------------------------
 
